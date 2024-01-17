@@ -74,7 +74,7 @@ Converting Hex to ASCII
                     or
                 - 16^2 power = 256
           - Starting to make sense now.
-          - But why is 2 in the 16teen's place? it looks like it's in the ten's place,... but its actually in the 16teen's place, but why?
+          - Lets do it again,... why is 2 in the 16teen's place? it looks like it's in the ten's place,... but its actually in the 16teen's place, but why?
           - Remember base-16 starts over back at the beggining after it reaches its 16th digit. (which according to base-16 is F)
                - base-10 starts over after it reaches 9.
           - So to answer that question is because 16 is not being multipled by itself at all.
@@ -82,7 +82,7 @@ Converting Hex to ASCII
                      or
                - 16^1 power = 16
            - The same would apply to a digit in the ten's place for base-10.
-     - In this case we are only working pairs of Hexadecimal values. 
+     - In this case we are only working with pairs of Hexadecimal values. 
           - So we wont be seeing 3 or more digits in a row,... only 2. WHich means less math,... which makes things easier.
      - SO what does the Hexadecimal value of "6E" represent,... remember this is base-16?
           - E is in the one's place,... and by itslef is equal to 14
@@ -102,7 +102,7 @@ Converting Hex to ASCII
                       (6×16^1),... the answer to this is 96.
                     - And then you take the sum of both of those Answers and add them together.
                - 14+96  =  110
-     - SO all in all "6E" has a Hexadecimal value of "110".
+     - SO all in all the Hexadecimal value of "6E" has a numerical value of "110".
      - This is where things get easier because now it time to convert Hex to ASCII.
           - The true answer to this is that there is no conversion process.
           - ASCII basically has a table,... which is basically a long list of every character that exists on your keyboard,... and each character on that 
