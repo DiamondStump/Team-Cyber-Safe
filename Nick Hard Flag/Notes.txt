@@ -1,1 +1,24 @@
-
+Explaning hexidecimal values.
+     - Hexadecimal is a base-16 number system.
+          - The decimal equivalent of hex is as follows: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+          -  It uses 16 digits: 0-9 and A-F, where A stands for 10, B for 11, and so on up to F for 15.
+     - A bit can either represent a 0 or a 1. This is binary,... the core of all computer language.
+     - A byte consists of a total of 8 bits. or eight 0s and 1s. 
+     - In hexidecimal, each digit represents 4 bits (aka a half of a byte). Therefore, two hex digits (4 bits + 4 bits) represent a single byte. So again each 
+       pair represents a single byte.
+     - Example: 1A in hex is equivalent to 00011010 in binary, and it represents a single byte.
+          - Hex "1" corresponds to binary 0001
+            Hex "2" corresponds to binary 0010
+            Hex "3" corresponds to binary 0011
+            Hex "4" corresponds to binary 0100
+            Hex "5" corresponds to binary 0101
+            Hex "6" corresponds to binary 0110
+            Hex "7" corresponds to binary 0111
+            Hex "8" corresponds to binary 1000
+            Hex "9" corresponds to binary 1001
+            Hex "A" corresponds to binary 1010
+            Hex "B" corresponds to binary 1011
+            Hex "C" corresponds to binary 1100
+            Hex "D" corresponds to binary 1101
+            Hex "E" corresponds to binary 1110
+            Hex "F" corresponds to binary 1111
