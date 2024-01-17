@@ -50,7 +50,8 @@ Converting Hex to ASCII
           - 6 is in the hundred's place.
           - and 1 is in the thousand's place.
           - Do you see the pattern?
-     - For base-16 the process is a little bit different. Lets look at 120.
+     - For base-16 the process is a little bit different. Lets look at 120. (This doesnt make sense for reasons that im not going to explain, but is only 
+                                                                                                                               for demonstration purposes)
           - The 0 would be in the one's place.
           - however 2 would exist in the 16teen's place.
           - and 1 would exist in the 256's place.
