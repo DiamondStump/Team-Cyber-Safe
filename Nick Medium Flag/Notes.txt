@@ -1,6 +1,7 @@
 Explaning hexidecimal values.
      - Hexadecimal is a base-16 number system.
           - The decimal equivalent of hex is as follows: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+          - It uses 16 digits: 0-9 and A-F, where A stands for 10, B for 11, and so on up to F for 15.
           - 0: 0
           - 1: 1
           - 2: 2
@@ -17,12 +18,11 @@ Explaning hexidecimal values.
           - D: 13
           - E: 14
           - F: 15
-          - It uses 16 digits: 0-9 and A-F, where A stands for 10, B for 11, and so on up to F for 15.
-     - A bit can either represent a 0 or a 1. This is binary,... the core of all computer language.
-     - A byte consists of a total of 8 bits. or eight 0s and 1s. 
-     - In hexidecimal, each digit represents 4 bits (aka a half of a byte). Therefore, two hex digits (4 bits + 4 bits) represent a single byte. So again 
-       each pair represents a single byte.
-     - Example: 1A in hex is equivalent to 00011010 in binary, and it represents a single byte.
+     - In general a bit can either represent a 0 or a 1. This is binary,... the core of all computer language.
+     - A byte consists of a total of 8 bits,... or a collection of eight 0s and 1s,... such as 00101100.
+     - When it comes to hexidecimal pairs such as "3F", each charcter/digit represents 4 bits (aka a half of a byte). Therefore, two hex digits 
+       (4 bits + 4 bits) represents a single byte. So again each hex pair all together represents a single byte.
+     - Example: "1A" in hex is equivalent to 00011010 in binary, and it represents a single byte.
           - Think of binary as a base-2 number system,... because thats essentially what it is. 
           - Hex "1" corresponds to binary 0001
             Hex "2" corresponds to binary 0010
@@ -40,7 +40,7 @@ Explaning hexidecimal values.
             Hex "E" corresponds to binary 1110
             Hex "F" corresponds to binary 1111 
 Converting Hex to ASCII
-     - to makes things easy lets look at the number 125 in base-10,... which most people on earth are familiar with,... which is 0,1,2,3,4,5,6,7,8,9.
+     - to makes things easy lets look at the number 125 in base-10,...which is what most people on earth are familiar with,... which is 0,1,2,3,4,5,6,7,8,9.
           - if we were in kindergarden the teacher would say; 
           - 5 is in the one's place. 
           - 2 is in the ten's place.
