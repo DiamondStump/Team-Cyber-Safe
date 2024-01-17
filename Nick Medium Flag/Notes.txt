@@ -108,8 +108,8 @@ Converting Hex to ASCII
           - The true answer to this is that there is no conversion process.
           - ASCII basically has a table,... which is basically a long list of every character that exists on your keyboard,... and each character on that 
             list is assigned a numerical value.
-          - There is no purpose is trying to memorize that entire list.
-          - But anyways,..In this case "110" is the numerical value that is assigned for the letter "n" in ASCII.
+          - There is no purpose in trying to memorize that entire list.
+          - But anyways,..In this case "110" is the numerical value that is assigned for the letter "n" for ASCII.
           - Your computer will do the math above to find the numerical value of hexcidecimal pairs,... and once it finds that numerical value it will 
             compare it to the table/list to see which character that number represents,... and then display that character on your screen,... and the 
             process repeats itself for every hex pair that exists after that.
