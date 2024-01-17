@@ -106,8 +106,8 @@ Converting Hex to ASCII
      - SO all in all the Hexadecimal value of "6E" has a numerical value of "110".
      - This is where things get easier because now it time to convert Hex to ASCII.
           - The true answer to this is that there is no conversion process.
-          - ASCII basically has a table,... which is basically a long list of every character that exists on your keyboard,... and each character on that 
-            list is assigned a numerical value.
+          - ASCII basically has a table,... which is basically a long list of every character that exists on your keyboard and more,... and each character 
+            on that list is assigned a numerical value.
           - There is no purpose in trying to memorize that entire list.
           - But anyways,..In this case "110" is the numerical value that is assigned for the letter "n" for ASCII.
           - Your computer will do the math above to find the numerical value of hexcidecimal pairs,... and once it finds that numerical value it will 
