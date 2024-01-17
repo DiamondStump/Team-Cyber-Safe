@@ -23,6 +23,7 @@ Explaning hexidecimal values.
      - In hexidecimal, each digit represents 4 bits (aka a half of a byte). Therefore, two hex digits (4 bits + 4 bits) represent a single byte. So again 
        each pair represents a single byte.
      - Example: 1A in hex is equivalent to 00011010 in binary, and it represents a single byte.
+          - Think of binary as a base-2 number system,... because thats essentially what it is. 
           - Hex "1" corresponds to binary 0001
             Hex "2" corresponds to binary 0010
             Hex "3" corresponds to binary 0011
@@ -37,8 +38,7 @@ Explaning hexidecimal values.
             Hex "C" corresponds to binary 1100
             Hex "D" corresponds to binary 1101
             Hex "E" corresponds to binary 1110
-            Hex "F" corresponds to binary 1111
-          - Think of binary as a base-2 number system,... because thats essentially what it is. 
+            Hex "F" corresponds to binary 1111 
 Converting Hex to ASCII
      - to makes things easy lets look at the number 125 in base-10,... which most people on earth are familiar with,... which is 0,1,2,3,4,5,6,7,8,9.
           - if we were in kindergarden the teacher would say; 
