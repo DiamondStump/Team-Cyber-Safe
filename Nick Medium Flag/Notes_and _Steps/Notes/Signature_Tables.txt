@@ -7,3 +7,5 @@ unique set of predefined hex values that are specific to a type of file in order
 However not all files have ending hex signatures,... which can also be called "trailers".
 Here is a link that shows a table of all the starting "hex signatures" and "trailers" for each type of file.
 https://www.garykessler.net/library/file_sigs.html 
+
+This might help you one day while using a "hex editor" to determine if there is another file isnide of file.
