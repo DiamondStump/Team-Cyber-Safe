@@ -1,3 +1,8 @@
+Explaning hexidecimal values in correlation to bits and bytes. Including ASCII
+You will notice that there are plenty of hex editors out there, but when you run the software for the first time
+it can be kind of confusing the looking at the hex values and not really know whats going on,... 
+Understanding what Hex values are will help give you more clarity of what going on in the hex editor.
+
 Explaning hexidecimal values in correlation to bits and bytes.
      - Hexadecimal is a base-16 number system.
           - The base-16 number system is as follows: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
