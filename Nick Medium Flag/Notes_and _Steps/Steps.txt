@@ -1,1 +1,16 @@
+This is the introduction to the steps that go into completeing the Medium CTF
 
+Step 1. You download the audio file monkey.WAV
+        Then you Reasearch online to discover that hex editors are part of the solution to see if anything might be
+        hidden within the file.
+             - There are so many to choose from. you can go to the "microsoft store" app and type hex editor and There
+               will be many to choose from.
+
+Step 2. You do research to eventualy find out that all files have "Hex signatures" that mark the start and end of a file.
+        You then search to find the "hex signatures" for the .WAV file to compare and see if anything is fishy.
+        But overall you eventually learn the hex signature that starts the beginning of the wav file,...
+        However you also learn the ending hex signature is not a fixed value, but rather the end of a .wav file is marked 
+        by the end of the data chunk, which can vary in size and depends on the length of the audio data in the file.
+        Essentially there is no ending Hex signature for wav files.
+
+Step 3. You 
