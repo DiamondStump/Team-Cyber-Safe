@@ -1,4 +1,5 @@
-Welcome to my CTF.
+Welcome to my CTF. 
+Subject category,... Steganography.
 
 We Monkeys are the masters at peeling bannanas. 
 Bannanas usually contain details that often get overlooked.
