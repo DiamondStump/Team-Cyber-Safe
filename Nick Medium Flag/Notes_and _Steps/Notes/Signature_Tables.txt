@@ -2,10 +2,13 @@ All files of course are writtin in binary
 Hex editors convert that binary into hexcidecimal fomate in order to convert it into ASCII so that we can read it easier.
 
 however all files have "hex signatures" or rather the "hex editor" converts the binary into Hexadecimal to expose that 
-it has set predefined signatures that are unique for each type of file. But overall those "Hex Signatures" again are a 
-unique set of predefined hex values that are specific to a type of file in order to mark the start and end of a file.
-However not all files have ending hex signatures,... which can also be called "trailers".
+it has set predefined signatures that are unique for each type of file. These hex signatures are sometimes refered to as the "magic number"
+But overall those "Hex Signatures" again are a unique set of predefined hex values that are specific to a type of file in order to
+mark the start and end of a file.
+However not all files have ending hex signatures,... which can also be called "trailers",... which are also called a "footers".
+So overall "headers" and "footers" are another way of describing the starting and ending hex signatures of a file.
 Here is a link that shows a table of all the starting "hex signatures" and "trailers" for each type of file.
 https://www.garykessler.net/library/file_sigs.html 
+Also not all files have "hex signatures",... one example is a .bat file
 
 This might help you one day while using a "hex editor" to determine if there is another file isnide of file.
