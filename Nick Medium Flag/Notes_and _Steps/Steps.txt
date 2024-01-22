@@ -1,6 +1,6 @@
 This is the introduction to the steps that go into completeing the Medium CTF
 
-Step 1. You download the audio file monkey.WAV
+Step 1. You read the Introduction to the CTF and download the audio file,... monkey.WAV
         Then you Reasearch online to discover that hex editors are part of the solution to see if anything might be
         hidden within the file.
              - There are so many to choose from. you can go to the "microsoft store" app and type hex editor and There
@@ -9,18 +9,35 @@ Step 1. You download the audio file monkey.WAV
 Step 2. You do research to eventualy find out that all files have "Hex signatures" that mark the start and end of a file.
         You then do more research to find the "hex signatures" for the .WAV file to compare and see if anything is fishy.
         You eventually learn the hex signature that starts the beginning of a wav file,...
-        However you also learn that the ending hex signature is not a fixed value, but rather the end of a .wav file is marked 
+        However you also learn that the ending hex signature for a .wav file is not a fixed value, but rather the end of the file is marked 
         by the end of the data chunk, which can vary in size and depends on the length of the audio data in the file.
         Essentially there is no ending Hex signature for .wav files.
 
 Step 3. You come to learn that although hex signatuers are usefull, it unfortunalty wont wont be of any use in this case in 
         determining if this file has been tampered with.
         You do research to eventually learn the importance that understanding the "file structure" of a file is Imperative
-        when it comes to recognizing anomlies that shouldnt exist.
+        when it comes to recognizing anomlies that shouldnt exist if it was actually a noraml .wav file.
         You then investigate the hex editor to see other available interpretations of the data within the .wav file that are available in various forms.
         You look at the various bit depths within the hex editor to notice that most of them repetitively share the same integer,... which is 65284.
-        You learn that the fact that the same value appears consistently across different bit depths is not typical in standard .wav files.
-        You conclude that this Consistency across various representations suggests a deliberate choice or an anomaly of tampering with the file.
+        You learn that the fact that if the same value appears consistently across different bit depths that this is not typical in standard .wav files.
+        You conclude that this Consistency across various representations suggests a deliberate choice or an anomaly of tampering with the file,...
+        showing potential signs of encryption and may contain a hidden file.
+
+Step 4 So You resaerch cmd tools online that can help with extracting files from within a file.
+       You come across the cmd tool "steghide" which can help.
+       You also learn that this tool is also used to hide files within files as well.
+       You also learn that steghide is "only compatiable" with only 4 types of files,... with .wav files being one of them! which makes you suspicious that
+       the person who modified the file potentially used this tool to hide the file due to the fact that .wav files are compatiable with steghide.
+
+Sted 5 You download and install Steghide and run the tool against the sus .wav file.
+       The tool then requests a passphrase to decrypt the default AES algorithm that steghide uses.
+       You then take a moment to take a step back and reread the introduction of the CTF and notice that the word "bannana" is oddly being highlighted.
+       You then try to put the word "Bannana" as the passphrase.
+       It works!! 
+       And then you look at the extracted file as a .txt,... you look to find that it is full of "cmd commands" that can be used as a ".bat file" to execute
+       malicious command on your device,... and it also contains the Flag!
+       In this case the commands are not malicious,... becaause when you you change the extention to ".bat" and run the file,... you can see that it runs an 
+       innocent ASCII art annomation of a monkey running! 
 
 
 
