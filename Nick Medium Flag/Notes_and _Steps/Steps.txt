@@ -29,6 +29,11 @@ Step 4 So You resaerch cmd tools online that can help with extracting files from
        You also learn that this tool is also used to hide files within files as well.
        You also learn that steghide is "only compatiable" with only 4 types of files,... with .wav files being one of them! which makes you suspicious that
        the person who modified the file potentially used this tool to hide the file due to the fact that .wav files are compatiable with steghide.
+       https://www.bing.com/search?q=popular+tools+to+hide+file+within+a+file&form=ANNTH1&refig=bc0c91d7728d435fa13a1cabd6110864&pc=HCTS (used to discover 
+       the existence of steghide)
+       https://steghide.sourceforge.net/index.php (Discover that steghide also hides files within files)
+                                                  (Discover that steghide is only compatablie with 4 types of files)
+                                                  
 
 Sted 5 You download and install Steghide and run the tool against the sus .wav file.
        The tool then requests a passphrase to decrypt the default AES algorithm that steghide uses.
