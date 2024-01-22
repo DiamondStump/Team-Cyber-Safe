@@ -7,3 +7,5 @@ what is fake, but rather through observing the genuine article"
 
 i thought to myself that the same is true for findind anomlies in file types.
 So the tip i want to provide is take time to understand the "file stucture" of any given file that you are suspicous about if you hit a roadbloack. 
+You do this for the purpose of getting familiar with what is considered normal for that file, so that it will be easier to distinguish if anything is fishy
+or out of the normal.
