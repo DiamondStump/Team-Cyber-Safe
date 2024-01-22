@@ -5,6 +5,7 @@ Step 1. You read the Introduction to the CTF and download the audio file,... mon
         hidden within the file.
              - There are so many to choose from. you can go to the "microsoft store" app and type hex editor and There
                will be many to choose from.
+       https://www.youtube.com/results?search_query=file+anylsis+tools   (This is how you discover the existence of a hex editor)
 
 Step 2. You do research to eventualy find out that all files have "Hex signatures" that mark the start and end of a file.
         You then do more research to find the "hex signatures" for the .WAV file to compare and see if anything is fishy.
