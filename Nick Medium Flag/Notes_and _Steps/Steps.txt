@@ -18,7 +18,10 @@ Step 3. You come to learn that although hex signatuers are usefull, it unfortuna
         You do research to eventually learn the importance that understanding the "file structure" of a file is Imperative
         when it comes to recognizing anomlies that shouldnt exist.
         You then investigate the hex editor to see other available interpretations of the data within the .wav file that are available in various forms.
-        You eventually look at 
+        You look at the various bit depths within the hex editor to notice that most of them repetitively share the same integer,... which is 65284.
+        You learn that the fact that the same value appears consistently across different bit depths is not typical in standard .wav files.
+        You conclude that this Consistency across various representations suggests a deliberate choice or an anomaly of tampering with the file.
+
 
 
 
