@@ -1,0 +1,9 @@
+All the Notes in this folder showcase a non-comprehensive approach to discovering anomolies in file types using a hex editor.
+i say "non-comprehensive" because there are so many methods that it would be to much to list them all.
+
+However i just want to provide a quick tip. 
+But before i do i just want to say that i had a pastor say to me that. " You dont become better at disvovering counter-fit 100$ by studying 
+what is fake, but rather through observing the genuine article"
+
+i thought to myself that the same is true for findind anomlies in file types.
+So the tip i want to provide is take time to understand the "file stucture" of any given file that you are suspicous about if you hit a roadbloack. 
