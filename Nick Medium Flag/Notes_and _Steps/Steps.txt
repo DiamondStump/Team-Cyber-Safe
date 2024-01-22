@@ -7,10 +7,18 @@ Step 1. You download the audio file monkey.WAV
                will be many to choose from.
 
 Step 2. You do research to eventualy find out that all files have "Hex signatures" that mark the start and end of a file.
-        You then search to find the "hex signatures" for the .WAV file to compare and see if anything is fishy.
-        You eventually learn the hex signature that starts the beginning of the wav file,...
-        However you also learn the ending hex signature is not a fixed value, but rather the end of a .wav file is marked 
+        You then do more research to find the "hex signatures" for the .WAV file to compare and see if anything is fishy.
+        You eventually learn the hex signature that starts the beginning of a wav file,...
+        However you also learn that the ending hex signature is not a fixed value, but rather the end of a .wav file is marked 
         by the end of the data chunk, which can vary in size and depends on the length of the audio data in the file.
-        Essentially there is no ending Hex signature for wav files.
+        Essentially there is no ending Hex signature for .wav files.
 
-Step 3. You 
+Step 3. You come to learn that although hex signatuers are usefull, it unfortunalty wont wont be of any use in this case in 
+        determining if this file has been tampered with.
+        You do research to eventually learn the importance that understanding the "file structure" of a file is Imperative
+        when it comes to recognizing anomlies that shouldnt exist.
+        You then investigate the hex editor to see other available interpretations of the data within the .wav file that are available in various forms.
+        You eventually look at 
+
+
+
