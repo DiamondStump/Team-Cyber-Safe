@@ -10,3 +10,6 @@ You may "hear" us, but you wont necessarily "see" us. And it may be hard to spot
 But sense your new to the feild ill give you a hint. 
 The experts like to place a... "Bannana"... to lure us into the open.
 
+Please download and inspect the monkey.wav file.
+There is NO MALWARE in this file.
+its still however best practice to operate in a safe virtual sandbox Environment.
