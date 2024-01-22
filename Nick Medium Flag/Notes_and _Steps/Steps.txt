@@ -35,15 +35,18 @@ Step 4 So You resaerch cmd tools online that can help with extracting files from
                                                   (Discover that steghide is only compatablie with 4 types of files)
                                                   
 
-Sted 5 You download and install Steghide and run the tool against the sus .wav file.
-       The tool then requests a passphrase to decrypt the default AES algorithm that steghide uses.
-       You then take a moment to take a step back and reread the introduction of the CTF and notice that the word "bannana" is oddly being highlighted.
-       You then try to put the word "Bannana" as the passphrase.
-       It works!! 
-       And then you look at the extracted file as a .txt,... you look to find that it is full of "cmd commands" that can be used as a ".bat file" to execute
-       malicious command on your device,... and it also contains the Flag!
+Sted 5 You download and install Steghide and run the tool against the sus .wav file to extract any potential file that may exist.
+            - Steghide extraction cmd command:
+                             steghide extract -sf monkey.wav -xf extracted.txt
+
+        The tool then requests a passphrase to decrypt the default AES algorithm that steghide uses.
+        You then take a moment to take a step back and reread the introduction of the CTF and notice that the word "bannana" is oddly being highlighted.
+        You then try to put the word "Bannana" as the passphrase.
+        It works!! 
+        And then you look at the extracted file as a .txt,... you look to find that it is full of "cmd commands" that can be used as a ".bat file" to execute
+        malicious command on your device,... and it also contains the Flag!
        In this case the commands are not malicious,... becaause when you you change the extention to ".bat" and run the file,... you can see that it runs an 
-       innocent ASCII art annomation of a monkey running! 
+        innocent ASCII art annomation of a monkey running! 
 
 
 
