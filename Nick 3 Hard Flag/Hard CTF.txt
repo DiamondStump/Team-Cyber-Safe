@@ -6,13 +6,13 @@ i do anyways,... Maybe i left one of my plastic red monkeys in one of his forts.
 DNS ( find a unique domain name )
 
 Hint 2
-Sometimes i like to take from the stack of old newspapers to make paper hats,...maybe i left one of my monkeys under that stack,... most people use social 
-media to get their news, but my parents still read the paper. 
+Sometimes i will like to take from the stack of old newspapers to make paper hats,...maybe i left one of my monkeys somewher in that stack,... most people use 
+social media to get their news, but my parents still read the paper. 
 NNTP
 
 Hint 3
 My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin will 
-like to try and capture me with my dad's fishing "net",... but my little brother likes to "tel" on us,... i need to go back and to see if any of my monkeys 
+like to try and capture me with my dad's fishing "net",... but my little brother likes to "tel" on us,... i need to go back to see if any of my monkeys 
 fell in the mud.
 Telnet + Mud server,... use tellnet in cmd to type in muddomain and port number,... create an account and character,... and make the character say the Flag.
 
