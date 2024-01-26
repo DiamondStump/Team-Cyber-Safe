@@ -1,14 +1,24 @@
-add info here
+i like to keeps my red plastic monkey in my pocket,... they tend to fall out of my pockets when i play around the house,... ive noticed that i lost a few of them lately
 
-
+Hint 1
 Me and my Brother love making cardboard box forts in the backyard, he calls the forts that he creates his "Domains",... he tells me not to play in them, but 
-i do anyways,... Maybe i left one of my red monkeys in one of his forts.
+i do anyways,... Maybe i left one of my plastic red monkeys in one of his forts.
 DNS
 
+Hint 2
 Sometimes i like to take from the stack of old newspapers to make paper hats,...maybe i left one of my monkeys under that stack,... most people use social 
 media to get their news, but my parents still read the paper. 
 NNTP
 
+Hint 3
+My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin will 
+like to try and capture me with my dad's fishing "net",... but my little brother likes to "tel" on us,... i need to go back and to see if any of my monkeys 
+fell in the mud.
 Telnet + Mud server,... use tellnet in cmd to type in muddomain and port number,... create an account and character,... and make the character say the Flag.
 
 
+
+
+
+
+Ive learned my lesson,... ill keep my monkeys in the barrel from now on.
