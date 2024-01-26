@@ -9,4 +9,6 @@ Sometimes i like to take from the stack of old newspapers to make paper hats,...
 media to get their news, but my parents still read the paper. 
 NNTP
 
+Telnet + Mud server,... use tellnet in cmd to type in muddomain and port number,... create an account and character,... and make the character say the Flag.
+
 
