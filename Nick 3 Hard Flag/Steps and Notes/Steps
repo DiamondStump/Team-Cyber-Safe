@@ -39,7 +39,15 @@ and from here its as simple as scrolling down to see if we can hopefully find ou
 
 
 Step 2
-
+Lets go ahead and read the 2nd hint.
+........Demonstrate
+well to the unlearned person it doesnt seem like its highlighting any thing other than the fact that its talking about the subject of newspapers.
+Somone whos already somewhat astute in network protocols and packets and etc will pretty much pick up what the hint is putting down. For us anyways
+one things for sure is that im not going to do research on every single single protocol to see if there is a connction with the hint. 
+Maybe there is a way to at least narrow down my research. Your research doesnt Necessarily have to be about protocols, but it's a start.
+For me i would look at the pcap file and make a list of all the protocols being used that i can see with wireshark. And more or less once your done
+you will get a rather small handfull of protocols to research for. Eventually as you go down your list you will hit find "NNTP" and start researching
+that, which a quick search will show that NNTP stands for
 
 
 
