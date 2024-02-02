@@ -44,18 +44,29 @@ Lets go ahead and read the 2nd hint.
 well to the unlearned person it doesnt seem like its highlighting any thing other than the fact that its talking about the subject of newspapers.
 Somone whos already somewhat astute in network protocols and packets and etc will pretty much pick up what the hint is putting down. For us anyways
 one things for sure is that im not going to do research on every single protocol to see if there is a connction with the hint. 
-Maybe there is a way to at least narrow down my research. Your research doesnt Necessarily have to be about protocols, but it's a start.
+Maybe there is a way to at least narrow down my research? Your research doesnt Necessarily have to be about protocols, but it's a start.
 For me i would look at the pcap file and make a list of all the protocols being used that i can see with wireshark. And more or less once your done
 you will get a rather small handfull of protocols to research for. Eventually as you go down your list you will hit "NNTP" and start researching
-that, which a quick search will show that NNTP stands for "Network News Tramission Protocol". Even the name is a kind of a give away. 
-Network news transmission protocol and then we have a hint that talks about newspapers. Seems like a correlation to me And if you continue to research 
-you will quickly learn that its a system that works along with usenet that emerged before the world wide web and more and it was pretty popular 
-in the past, however it somewhat diminished in use due to the rise of other online communication platforms. ANd just from from learning that it sounds
-extreamly similar to the hint that talkes about, "most people get there news from social media and etc, but my parents still read the newspaper."
-If i had to bet, NNTP is the protocol that i need to search for.
+that protocol, which a quick search will show that NNTP stands for "Network News Tramission Protocol". Even the name is a kind of a give away. 
+Network news transmission protocol and then we have a hint that talks about newspapers. Seems like a correlation to me. And if you continue to research 
+you will quickly learn that its a system that works along with usenet that emerged before the world wide web and it was pretty popular 
+in the past, and youll learn that it somewhat diminished in use due to the rise of other online communication platforms. ANd just from from 
+learning that it sounds extreamly similar to the hint that talkes about, "most people get there news from social media and etc, 
+but my parents still read the newspaper." If i had to bet, NNTP is the protocol that we need to search for.
 So lets go do that.
 .........Demonstrate
-
+Look at what we did,... we reduced it down to 26 packete out of 6000+ packets!
+This is going to easy. 
+And when looking at packets you dont just look at the protocol tab and the info tab. You also have to consider other tabs like the Length tab, 
+whcich tells you how many bytes that are used to make up that packet.
+.......Demonstrate
+Here we have a packet that is 1488, and its typically normal for a packet to have bytes in the 150 or below range per say. SO seing these bigger 
+packets likes these that are carrying 1000+ bytes is of intrest to me. It even says "article" next to it so its obviously carry information about 
+article. And you can even see the readable words in ASCII if you look down at the bottom right. And by the way i just want to say now that this is
+essentially a discussion forum were people can discuss revelent topics that were discussed in the podcast which is called SecurityNow. 
+You can look them up on Youtube and and learn a lot. But maybe our Flag might be in here in one of these larger packets, So lets click on the one
+that has 1176 bytes.
+.........Demonstrate and reveal the Flag
 
 
 
