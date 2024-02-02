@@ -43,11 +43,18 @@ Lets go ahead and read the 2nd hint.
 ........Demonstrate
 well to the unlearned person it doesnt seem like its highlighting any thing other than the fact that its talking about the subject of newspapers.
 Somone whos already somewhat astute in network protocols and packets and etc will pretty much pick up what the hint is putting down. For us anyways
-one things for sure is that im not going to do research on every single single protocol to see if there is a connction with the hint. 
+one things for sure is that im not going to do research on every single protocol to see if there is a connction with the hint. 
 Maybe there is a way to at least narrow down my research. Your research doesnt Necessarily have to be about protocols, but it's a start.
 For me i would look at the pcap file and make a list of all the protocols being used that i can see with wireshark. And more or less once your done
-you will get a rather small handfull of protocols to research for. Eventually as you go down your list you will hit find "NNTP" and start researching
-that, which a quick search will show that NNTP stands for
+you will get a rather small handfull of protocols to research for. Eventually as you go down your list you will hit "NNTP" and start researching
+that, which a quick search will show that NNTP stands for "Network News Tramission Protocol". Even the name is a kind of a give away. 
+Network news transmission protocol and then we have a hint that talks about newspapers. Seems like a correlation to me And if you continue to research 
+you will quickly learn that its a system that works along with usenet that emerged before the world wide web and more and it was pretty popular 
+in the past, however it somewhat diminished in use due to the rise of other online communication platforms. ANd just from from learning that it sounds
+extreamly similar to the hint that talkes about, "most people get there news from social media and etc, but my parents still read the newspaper."
+If i had to bet, NNTP is the protocol that i need to search for.
+So lets go do that.
+.........Demonstrate
 
 
 
