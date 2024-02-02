@@ -10,10 +10,9 @@ Sometimes i will like to take from the stack of old newspapers to make paper hat
 still read the newspaper,... maybe i left one of my monkeys somewhere in that stack.
 
 Hint 3
-My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin will 
-like to try and capture me with my dad's fishing "net",... but my little brother likes to "tel" on us,... i need to go back to see if any of my monkeys 
-fell in the mud.
-Telnet + Mud server,... use tellnet in cmd to type in muddomain and port number,... create an account and character,... and make the character say the Flag.
+My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin
+likes to pretend and call himself "The Courageous Paladin" and will try and capture me with my dad's giant fishing "net",... but my little brother likes to 
+"tel" on  us,... i need to go back to see if any of my monkeys fell outside near or in the mud.
 
 Hint 4
 We have this little slot in our door for mail to slip in,... Sometimes I'm nosy and like to look at the mail,... i also saw a package which i opened 
