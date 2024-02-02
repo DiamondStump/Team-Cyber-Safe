@@ -31,7 +31,7 @@ out,... and im going to start with https. So i have to figure out what is making
 the area, and copy as filter. and there are two ways of doing this.
 .........demonstrate
 And now you can see that we have 118 packets rather than 203,... basically cutting it down in half twice.
-and from here its as simple as scrolling down to see if there to potentially find our flag.
+and from here its as simple as scrolling down to see if we can hopefully find our flag potentialy.
 
 
 
