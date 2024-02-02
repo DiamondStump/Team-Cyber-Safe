@@ -10,15 +10,36 @@ lets go ahead and open up wireshark.
 You can see that we have a total of 6,486 packets. Thats a lot! And it says that ther are 4 key words that we have to find in this flag, which more likley
 than not each one will most likely exist in one singular packet. So Basicaly 4 needles in a hay stack. And There has to be a way to filter these 6,000 packets,
 which of course there is. And where going to do that now. 
-Lets start out small, lets try filtering for packets that used DNS protocol. lets tye "dns" here.
+Lets start out small, lets try filtering for packets that used DNS protocol. lets type "dns" here.
 boom now i can only see dns.
 And  if you look down here you'll see its now only displaying 400 out of that 6486. So that helped!
-lets look at the ip addresses,... and if you do it wont take long in general to notice that all the packets here in this pcap file are coming from 10.0.2.15. 
+lets look at the ip addresses,... and if you do,. it wont take long in general to notice that all the packets here in this pcap file are coming from 10.0.2.15. 
 So it not like were looking at a range of different ip's communicating with each other. In this case, in this pcap file, they're all communincating back 
-to 10.0.2.15. And thats also the case with this DNS protocol that we just filtered searched for.
+to 10.0.2.15. And thats also the case with this here with this DNS protocol that we just filtered and searched for.
 And if you look at the "info section" you can look at all the "querys" that were made as well as the "query responses". 
 And if im honest, if im looking to see what domains/websites the person is querying for then im not really intrested in what the responses are.
-So Lets try and see if we can filter ou the respones.
+So Lets try and see if we can filter out the respones.
+So lets click on any "response" packet look and see what is making it say the word "response".
+.........demonstrate
+You can see that it's assigned a "1",... so maybe if i changed it to a "0" and created a filter for it then maybe it will get rid of all the responses.
+So lets lets right click on that,... and then click prepare as filter,... Notice and see that the filter says TRUE. I can either change it to make it say 
+FALSE or i can change it to a 0. And once we apply the filter we get a noticible difference. Now it's displaying only 203 rather than the 400 we had before.
+And notice how in the info section again we see a pattern where the packets will say either the letter "A" or "HTTPS" before specifying the domain name.
+And you can also see another noticable pattern where the same domain name will be Reiterated with "https" every time a domain is reiterated with the 
+Letter "A" preceeding before it. And because i dont want copies of the same quries being madee essentialy,.. im just going to go ahead and filter that
+out,... and im going to start with https. So i have to figure out what is making it say "https",... its as easy as clicking on the packet, finding 
+the area, and copy as filter. and there are two ways of doing this.
+.........demonstrate
+And now you can see that we have 118 packets rather than 203,... basically cutting it down in half twice.
+and from here its as simple as scrolling down to see if there to potentially find our flag.
+
+
+
+
+
+
+Step 2
+
 
 
 
