@@ -4,4 +4,35 @@ My presentation script for my hard flag
 Step One
 - dowload pcap file and open it in wireshark.
 - read The first hint to recieve clues as to what to do.
-- Say, "Well just from this Hint we see the big hint here. 
+- Say, "Well lets state the obviouse here,... theyre obviously highlighting the word "domains",... and the fact that where dealing with a pcap file
+  makes me think of DNS entires, so immeditalty im thinking of DNS protocol. So Maybe i should start with that.
+lets go ahead and open up wireshark.
+You can see that we have a total of 6,486 packets. Thats a lot! And it says that ther are 4 key words that we have to find in this flag, which more likley
+than not each one will most likely exist in one singular packet. So Basicaly 4 needles in a hay stack. And There has to be a way to filter these 6,000 packets,
+which of course there is. And where going to do that now. 
+Lets start out small, lets try filtering for packets that used DNS protocol. lets tye "dns" here.
+boom now i can only see dns.
+And  if you look down here you'll see its now only displaying 400 out of that 6486. So that helped!
+lets look at the ip addresses,... and if you do it wont take long in general to notice that all the packets here in this pcap file are coming from 10.0.2.15. 
+So it not like were looking at a range of different ip's communicating with each other. In this case, in this pcap file, they're all communincating back 
+to 10.0.2.15. And thats also the case with this DNS protocol that we just filtered searched for.
+And if you look at the "info section" you can look at all the "querys" that were made as well as the "query responses". 
+And if im honest, if im looking to see what domains/websites the person is querying for then im not really intrested in what the responses are.
+So Lets try and see if we can filter ou the respones.
+
+
+
+
+
+
+
+dns.qry.name == "www.FLAG---{IN}.com"
+dns.flags.response == 0 and dns.qry.type == 1
+
+ftp.response.code == 150
+
+tcp.srcport == 119
+
+tcp.dstport == 9999
+tcp.dstport == 9999 or tcp.srcport ==9999
+
