@@ -143,11 +143,16 @@ But as you can see there are a total of 102 conversations in this pcap.
 Ill be honest this doesnt really help me, but it makes me feel more comforatable. The column however will help me group the conversations together when
 i click on the column. i dont know i think it's really helpful.
 but lets go ahead and look at our source ports,... you can see that its all kinda scattered. so lets go ahead and click on the column to make it easier
-to look at. and then scroll back up to the top. There that looks better.
-but Notice by combining the "Stream Index" column and the "Source port column",... i can better  
-
-port 443 is https which we know is encrypted,... so even if we follow the tcp stream its not going to be helpful to us because we won't beable to read 
-anything if we do,... and port 443 makes most of the packets in this pcap file,.. so we can go ahead and filter out port 443. 
+to look at. and then scroll back up to the top. There... that looks better.
+but Notice by combining the "Stream Index" column and the "Source port column",... i can better be able to Distinguish,.... and recieve reasurance that
+each packet that is connected to a port really is apart of that same conversation,... which we can see is revealed by the consistent stream number that
+is being displayed of 82.
+Since we still have 4020 packets being displayed,... lets continue to see what we can do to lower that amount.
+lets look at the port number and just scroll down a bit.
+................. Demonstrate how each port belongs to each protocol.
+port 443 is https which we know is encrypted,... so lets say for example if we followed the tcp stream its not going to be helpful to us because we
+won't beable to read anything if we do,... and if we continue to scroll down we can see that port 443 makes most of the packets in this pcap file,.. 
+so we can just go ahead and filter out all ports with a Source or Destination of 443.
 ...........apply the filter.
 And boom we now have 768 packets compared to the 4,000+ packets that we had before.
 ............scroll down to find weird port
