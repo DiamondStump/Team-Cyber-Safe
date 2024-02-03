@@ -117,6 +117,8 @@ So what gives , why is it doing this?
 Well of course there is a reason for this and ill just be honest,..
 i didnt spend a lot of time as much as i would have liked to, but from the little bit of research that i did do im just going to blanket the subject and say
 a lot of other protocols rely on tcp in order to do its job,... which is why your seeing multiple protocols dispite the filter.
+So what can we to reduce the number of packets out of this 4000?
+well let me show you something. Lets go ahead and right click on any of these packets, doesnt matter which one. but im going to click on this ftp packet
 
 port 443 is https which we know is encrypted,... so even if we follow the tcp stream its not going to be helpful to us because we won't beable to read 
 anything if we do,... and port 443 makes most of the packets in this pcap file,.. so we can go ahead and filter out port 443. 
