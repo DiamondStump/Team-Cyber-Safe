@@ -100,7 +100,23 @@ and if i were to go back and do it again. i would have filtered out the response
 that was making the request for that file.
 
 Step 4
-
+...........read the 4th hint
+From reading the hint we can see a handfull of clues being thrown at us. And the first one that sticks out to me is when it says tha the boy liked to 
+his dad's fishing NET but my brother like to Tel on us,... notice how tel doesnt even include 2 Ls,... Net Tel,... TEL NET,... it's obviously trying to say
+telnet. We also see that it's highlighting MUD., but i cant really make out what that is right now. And we also se the name that his cousin gives himself 
+which is "The Courageous Paladin",... and notice how each letter at the start of each word is capitalized. And when you add them together it says TCP. SO 
+now we Telnet and TCP. So with the information that we just got from theset 2 clues lets go back into wireshark and see what we can do.
+Lets try typing in telnet.
+oh no! nothing shows up,... thats weird. why would it give me a hint that it might be using telnet? im not going to bother trying to figure out why.
+i guess we can just move on to the next clue and just type in tcp and see what happens. 
+WOW! We got 4,020 packets displayed. Thats like 2/3drds of the entire pcap file. Thats weird. Lets look and try to figure out why.
+Lets go ahead and clcik on the protocol tab to group things together. and scroll back up to the top
+...........Show how there are different Protocols
+Thats weird no other protocols should be displayed, because if i already specified TCP that means no other protocol should show up in my results.
+So what gives , why is it doing this?
+Well of course there is a reason for this and ill just be honest,..
+i didnt spend a lot of time as much as i would have liked to, but from the little bit of research that i did do im just going to blanket the subject and say
+a lot of other protocols rely on tcp in order to do its job,... which is why your seeing multiple protocols dispite the filter.
 
 
 
@@ -116,4 +132,5 @@ tcp.srcport == 119
 
 tcp.dstport == 9999
 tcp.dstport == 9999 or tcp.srcport ==9999
+tcp and !(ftp || ftp-data || nntp || http || tls)
 
