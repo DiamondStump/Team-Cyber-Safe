@@ -118,6 +118,15 @@ Well of course there is a reason for this and ill just be honest,..
 i didnt spend a lot of time as much as i would have liked to, but from the little bit of research that i did do im just going to blanket the subject and say
 a lot of other protocols rely on tcp in order to do its job,... which is why your seeing multiple protocols dispite the filter.
 
+port 443 is https which we know is encrypted,... so even if we follow the tcp stream its not going to be helpful to us because we won't beable to read 
+anything if we do,... and port 443 makes most of the packets in this pcap file,.. so we can go ahead and filter out port 443. 
+...........apply the filter.
+And boom we now have 768 packets compared to the 4,000+ packets that we had before.
+............scroll down to find weird port
+UH OH,... 9999,... thats a not a normal port that you ever usually find,.... now im invested to see what going on here,... You can even see that theyre
+all assigned to the same number for its tcp stream. so lets go ahead and right click and see its tcp stream.
+............scroll and reveal the flag and talk about how it was using telnet on a different port and which is why wireshark didnt recognize the protocol.
+
 
 
 
@@ -132,5 +141,5 @@ tcp.srcport == 119
 
 tcp.dstport == 9999
 tcp.dstport == 9999 or tcp.srcport ==9999
-tcp and !(ftp || ftp-data || nntp || http || tls)
+tcp and !(ftp || ftp-data || nntp || http || tls)       and           !(tcp.srcport == 443 || tcp.dstport == 443)
 
