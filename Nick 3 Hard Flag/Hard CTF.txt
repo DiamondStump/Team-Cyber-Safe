@@ -1,3 +1,6 @@
+Welcome to my CTF!
+Subject Category....
+
 Before we start this CTF there are a couple things that need to be explained.
 The Flag for this CTF is a makeup of words that have been seperated into 4 Pieces.
 These 4 words,... when put together in the correct order reveals the flag.
