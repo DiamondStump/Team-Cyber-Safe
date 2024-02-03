@@ -118,7 +118,33 @@ Well of course there is a reason for this and ill just be honest,..
 i didnt spend a lot of time as much as i would have liked to, but from the little bit of research that i did do im just going to blanket the subject and say
 a lot of other protocols rely on tcp in order to do its job,... which is why your seeing multiple protocols dispite the filter.
 So what can we to reduce the number of packets out of this 4000?
-well let me show you something. Lets go ahead and right click on any of these packets, doesnt matter which one. but im going to click on this ftp packet
+well let me show you something. Lets go ahead and right click on any of these packets, doesnt matter which one. but im going to click on this ftp packet.
+Youll go down and and go to "follow",... and then click on "TCP STream".
+Another window will pop showing the entire conversation going on between these 2 Ips.
+And if you look at the bottom left you can see that it says that it has 30 client PKs and 41 Server PKs. Which is a total of 71 pk.
+And if you look over here You can see that this conversation/stream has been assigned a value by wireshark with the number 82.
+So this conversation is the 82nd conversation that exists in this pacap. So its fair to say that there are at least 82 converstions/TCP streams that exists
+in this pacp. And again i will just say that for every new converastion thats been assigned a value is a new ip that the host is communicating with.
+So i want know how many conversations exists in total in this pcap.
+i could filter out this specific TCPstream and reduce the number of packets by 71,... but thats not really a huge difference,... and it also seems like
+a lot of work just to go through each TCP stream just to see if it might contain our flag.
+So lets again try to see first how many TCP streams/converstaions exist in this pcap.
+And we are going to do that by creating a new Column. If you can see we already have one that says "Time", Source, Destination, and etc. But this new
+Column will basically show us which packets belong to which converstations by showing it's "Stream number" that it has been assigned. 
+And not only that but we also need to create a new Column to reveal the source ports of each packet.
+So lets click on edit,... Go to Preferences,... a new window will pop up and you want to click on columns.
+And as you can see i already created 2 columns that are not currently selected.
+But ill create one for demonstration purposes.
+.........Demonstrate
+But once you create your Column,... your going to want to make sure that its selected and then click on "okay".
+And now that we have our new columns lets look at how many total converations are there.
+Lets click the stream index to sort the numbers from least to greatest. and then again from greastest to least. You might have to scroll back to the top.
+But as you can see there are a total of 102 conversations in this pcap.
+Ill be honest this doesnt really help me, but it makes me feel more comforatable. The column however will help me group the conversations together when
+i click on the column. i dont know i think it's really helpful.
+but lets go ahead and look at our source ports,... you can see that its all kinda scattered. so lets go ahead and click on the column to make it easier
+to look at. and then scroll back up to the top. There that looks better.
+but Notice by combining the "Stream Index" column and the "Source port column",... i can better  
 
 port 443 is https which we know is encrypted,... so even if we follow the tcp stream its not going to be helpful to us because we won't beable to read 
 anything if we do,... and port 443 makes most of the packets in this pcap file,.. so we can go ahead and filter out port 443. 
