@@ -72,6 +72,34 @@ that has 1176 bytes.
 
 
 Step 3
+..........read the 3rd hint
+Now from reading this,... the clues that i can derive from this would be about the fact that the subject revolves around Mail and letters. and also it
+highlights the letters DEB in debit card. My first thought that come to mind is email, however there is no SMTP protocol thats exists in this pcap file.
+Because if we look at our hypothetical list that we created earlier we'll see that it's not on that list. And out of all the protocols that are on that 
+list FTP would be my highest contender due to the fact that it works with retrieveing and sending files That could be figuratively interpreted as
+a letter. and im not sure if you already saw  but there was FTP protocol, and ther was FTP-DATA protocol that exists in that pcap file. And the very 
+fact there is protocol by the name FTP_DATA in the pcap means somebody definetly must have transfered some data to or from their device.
+So lets quickly type FTP-DATA to see more info from it
+..........Demonstrate
+And as you can see,... its the server that is the one thats sending data packets to the host,... which means the host is downloading a file of somekind
+from the server. And i want to know what file that is,... and if you look over at the info section you'll see the name and type of that file, which
+in this case is a .deb file,....Hmmmmm sounds eerily similar to the hint that spoke about the kid finding a DEB-it card. with the DEB being noticibly 
+highlighted. but i'll tell you right now if you double click on any of these packets it's not going to reveal the flag. You have a total of 360 packets
+being displayed and theyre all pretty much similar. So opening up each one to look for the flag seems rather time consuming. Maybe you can find a way to
+filter for it, and feel free to correct me if im wrong, but i dont feel like there is.
+So with that being said lets go back and create a filter for only FTP.
+...........Demonstrate
+we see that there are only 95 packets being displayed.
+And as we can can see everything seems to be rather scattered all over the place,.. so letes see if there is a way to group some of information thats
+being showed. So lets click on info, and boom its a little more easier to se better. Here we can see the requests being made. We can see all the attempts
+to change the working directoy CWD, and we see we can see another group called requesting to LIST, and another that says to Print working Directory PWD.
+And here we see a request to retrieve (RETR) a file which is the same file we saw earlier that was being downloaded earlier.
+And if you scroll down a few packets more you can see the flag,... Monkeys.exe
+At the time of creating this CTF i notice now that i could have done this differently.
+and if i were to go back and do it again. i would have filtered out the responses and replace the location of the flag to replace the name of the file
+that was making the request for that file.
+
+Step 4
 
 
 
