@@ -3,6 +3,7 @@ Subject Category,... Machine Infiltration/RCE and Privilege escalation.
 
 Nice! Before we begin lets cover some ground rules.
 The gist of this CTF is to download the VictimCTF.ova file and use "Virtualbox" to create a VM using that file.
+Link to download file ---> https://drive.google.com/file/d/1yqOuUA1UgwMomjbrUoZbEczZB7nvm8MS/view?usp=sharing
 You are only allowed to boot the VM using that .ova file and get it to run. You are not allowed to attempt to log into any of the users displayed.
 For what its worth,.. its supposed to simulate a remote device that you dont have physical access to.
 Your goal is to create your own VM and connect the "VictimCTF" machine to the same network as the one you created.
