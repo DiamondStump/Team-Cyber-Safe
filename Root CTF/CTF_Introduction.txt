@@ -1,1 +1,17 @@
-Welcome to the RootCTF
+Welcome to my CTF!
+Subject Category,... Machine Infiltration/RCE and Privilege escalation.
+
+Nice! Before we begin lets cover some ground rules.
+The gist of this CTF is to download the VictimCTF.ova file and use "Virtualbox" to create a VM using that file.
+You are only allowed to boot the VM using that .ova file and get it to run. You are not allowed to attempt to log into any of the users displayed.
+For what its worth,.. its supposed to simulate a remote device that you dont have physical access to.
+Your goal is to create your own VM and connect the "VictimCTF" machine to the same network as the one you created.
+This will all be done using your "virtual Manager". (Preferably Virtualbox.) 
+At which point it is up to you to use your Hacking Intuition to use your newly created vm to hack into the victim machine and perform privileged escalation 
+into the root user.
+Lets get started!
+
+
+
+Salutations everyone! We here at "Blackmarket United" we have recently discovered a new unique situation that has recently been blowing up and has been getting a lot of attention in the scientific community. Appearently a farmer who also has agricultural science experience in avian biology seems to have aquired his hands on a new breed of geese. For the first time in histroy he was able to make fiction into reality. He currently owns a goose that lays golden eggs. I know this is rather silly, but it's true. But more than that he was able to us this gold to buy top of the line technology to do further research on this goose. Presumably
+but now hes faced with a different problem. He cant do it alone and is now reaching out to the public
