@@ -1,0 +1,24 @@
+Welcome to my CTF!
+Subject Category,... Machine Infiltration/RCE and Privilege escalation.
+
+Nice! Before we begin lets cover some ground rules.
+The gist of this CTF is to download the VictimCTF.ova file and use "Virtualbox" to create a VM using that file.
+Link to download file ---> https://drive.google.com/file/d/1yqOuUA1UgwMomjbrUoZbEczZB7nvm8MS/view?usp=sharing
+You are only allowed to boot the VM using that .ova file and get it to run. You are not allowed to attempt to log into any of the users displayed.
+For what its worth,.. its supposed to simulate a remote device that you dont have physical access to.
+Your goal is to create your own VM and connect the "VictimCTF" machine to the same network as the VM you recently created.
+This will all be done using your "virtual Manager". (Preferably Virtualbox.) 
+At which point it is up to you to use your Hacking Intuition to use your newly created vm to hack into the victim machine and perform privileged escalation 
+into the root user.
+Lets get started!
+
+
+
+Salutations everyone! We here at "Blackmarket United" we have recently discovered a new unique situation that has recently been blowing up and has been 
+getting a lot of attention in the scientific community. Appearently a farmer who also has agricultural science experience in avian biology seems to have 
+aquired his hands on a new breed of geese. For the first time in histroy he was able to turn fiction into reality. He currently owns a goose that lays golden 
+eggs. I know this is rather silly, but it's true. But more than that he was able to use this gold to buy the top of the line technology to do further research 
+on this goose. Presumably to replicate these supposed findings.
+But now he is faced with a different problem. He does not have all of the Knowledge and skills to do this alone. He is now reaching out to the public over the 
+internet to find trusted individuals who can help him in his research. All we know is that this goose lays golden eggs. 
+Its up to you find and hack into these devices that he is using to reach out to the public in order Help us enumerate a plan to steal this goose!
