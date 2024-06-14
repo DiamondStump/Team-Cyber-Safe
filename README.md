@@ -26,4 +26,4 @@ __Skill Enhancement__: Participants will gain practical experience and proficien
 __Community Interaction__: Join our community of cybersecurity enthusiasts to discuss challenges, share strategies, and collaborate on solving CTF scenarios.
 
 ## Getting Started
-To get started with our multiple CTF challenges, follow these steps:
+To get started simple click on the "CTF Competitions" directory to explore the varied challenges.
