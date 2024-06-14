@@ -23,7 +23,5 @@ __Progressive Difficulty__: Challenges are organized from beginner to advanced l
 
 __Skill Enhancement__: Participants will gain practical experience and proficiency in key cybersecurity techniques essential for threat detection and response.
 
-__Community Interaction__: Join our community of cybersecurity enthusiasts to discuss challenges, share strategies, and collaborate on solving CTF scenarios.
-
 ## Getting Started
 To get started simple click on the "CTF Competitions" directory to explore the varied challenges.
