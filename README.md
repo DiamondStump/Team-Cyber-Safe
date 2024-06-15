@@ -8,11 +8,11 @@ The CTF challenges cover a wide range of cybersecurity disciplines including
 - Digital Forensics
 - File Analysis
 - Network Analysis
-- utilizing research in the Mitre framework
+- Utilizing research in the Mitre framework
 - Initial Access techniques
 - Privilege Escalation methods
 - Passive Reconnaissance strategies
-- and Web App Directory Traversal. 
+- Web App Directory Traversal. 
 
 Each challenge is carefully crafted to simulate real-world scenarios and encourage participants to apply their knowledge and problem-solving skills.
 
