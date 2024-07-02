@@ -1,0 +1,17 @@
+# Welcome to my CTF. 
+### Steganography.
+
+## Let's Begin
+We Monkeys are the masters at peeling bannanas.  
+Bannanas usually contain details that often get overlooked.  
+And you humans claim to be smarter and more evolved then we are, and yet you dont see what we see.  
+You say that there is more than one way to skin a cat.  
+But i say that there is more than one way to peel a Bannana.  
+Prove me Wrong.  
+  
+Sincerely, "Donkey Kong"  
+
+## The Goal/Disclaimer
+Please download and inspect the [_BANNANA_.png file]().  
+There is NO MALWARE in this file.  
+its still however best practice to operate in a safe virtual sandbox Environment.  
