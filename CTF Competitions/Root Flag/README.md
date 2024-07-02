@@ -1,7 +1,7 @@
 # Welcome to my CTF!
 ### Machine Infiltration/RCE and Privilege escalation.
 
-# Let's begin!!!
+## Let's begin!!!
 Salutations everyone!  
 We here at "Blackmarket United" we have recently discovered a new unique situation that has been blowing up recently and has been 
 getting a lot of attention in the scientific community.  
@@ -13,6 +13,8 @@ But now he is faced with a different problem. He does not have all of the Knowle
 internet to find trusted individuals to whom can help him in his research. 
 All we know is that this goose lays golden eggs. 
 Its up to you find and hack into these devices that he is using to reach out to the public in order Help us enumerate a plan to steal this goose!
+
+## The Goal/Disclaimer
 
 Nice! Before we begin lets cover some ground rules.
 The gist of this CTF is to download the [VictimCTF.ova](https://drive.google.com/file/d/18iAVf0B_164ajRm4T7VZj3XwJL74VSsd/view?usp=sharing) file and use "Virtualbox" to create a VM using that file.
