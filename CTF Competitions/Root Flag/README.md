@@ -24,5 +24,4 @@ Your next goal is to then create a 2nd seperate VM and get both of the VMs you c
 This will all be done using your "virtual Manager". (Preferably Virtualbox.)  
 At which point it is up to you to use your Hacking Intuition to use your newly created vm to hack into the victim machine and perform privileged escalation 
 into the root user.  
-Lets get started!
 
