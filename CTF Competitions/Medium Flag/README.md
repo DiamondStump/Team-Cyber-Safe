@@ -10,7 +10,7 @@ It's easy to get lost in this dense Thicket of trees here in the Amazon. And it 
 But sense your new to the feild ill give you a hint. 
 Sometimes we can leave a distinct... "Trail_of_Poo"... which can help you in your Pursuit.
 
-
-Please download and inspect the Amazon_Forest.jpg file.
+## The Goal/Disclaimer
+Please download and inspect the [Amazon_Forest.jpg file.]()
 There is NO MALWARE in this file.
 its still however best practice to operate in a safe virtual sandbox Environment.
