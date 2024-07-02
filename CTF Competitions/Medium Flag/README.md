@@ -11,6 +11,6 @@ But sense your new to the feild ill give you a hint.
 Sometimes we can leave a distinct... "Trail_of_Poo"... which can help you in your Pursuit.
 
 ## The Goal/Disclaimer
-Please download and inspect the [Amazon_Forest.jpg file.]()
+Please download and inspect the [Amazon_Forest.jpg file.](https://github.com/Nicholas-Heitman/Portfolio/blob/main/CTF%20Competitions/Medium%20Flag/Amazon_Forest.jpg)
 There is NO MALWARE in this file.
 its still however best practice to operate in a safe virtual sandbox Environment.
