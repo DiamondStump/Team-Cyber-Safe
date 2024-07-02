@@ -6,12 +6,12 @@ Salutations everyone!
 We here at "Blackmarket United" we have recently discovered a new unique situation that has been blowing up recently and has been 
 getting a lot of attention in the scientific community.  
 Appearently an agricultural scientist with experience in avian biology seems to have aquired his hands on a new breed of goose.   
-For the first time in histroy he was able to accidently turn fiction into reality. He currently owns a goose that lays golden eggs! I know this is rather silly, but it's true.  
-But more than that he was able to use this gold to buy top of the line technology to do his research on this goose. 
-Presumably to replicate his supposed findings.
-But now he is faced with a different problem. He does not have all of the Knowledge and skills to do this alone. He is now reaching out to the public over the 
-internet to find trusted individuals to whom can help him in his research. 
-All we know is that this goose lays golden eggs. 
+For the first time in histroy he was able to accidently turn fiction into reality. He currently owns a goose that lays golden eggs!  
+I know this is rather silly, but it's true.  
+But more than that he was able to use this gold to buy top of the line technology to do his research on this goose.  
+Presumably to replicate his supposed findings.  
+But now he is faced with a different problem. He does not have all of the Knowledge and skills to do this alone. He is now reaching out to the public over the internet to find trusted individuals to whom can help him in his research. 
+All we know is that this goose lays golden eggs.  
 Its up to you find and hack into these devices that he is using to reach out to the public in order Help us enumerate a plan to steal this goose!
 
 ## The Goal/Disclaimer
