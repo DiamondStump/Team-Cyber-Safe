@@ -2,7 +2,7 @@
 ### Subject Category,... Network Analysis.
 
 Before we start this CTF there are a couple things that need to be explained.
-The Flag for this CTF is a makeup of words that have been seperated into 4 Pieces.
+The Flag that you need to find for this CTF is a makeup of words that have been seperated into 4 Pieces.
 These 4 words,... when put together in the correct order reveals the flag.
 And these 4 peices have been scattered throughout the .pcapng file.
 And the name of this .pcapng file is "Plastic_Monkeys.pcapng".
