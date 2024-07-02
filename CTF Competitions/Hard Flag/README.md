@@ -40,5 +40,3 @@ Hint 4:
 My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin
 likes to pretend and call himself "The Courageous Paladin" and will try and capture me with my dad's giant fishing "net",... but my little brother likes to 
 "tel" on  us,... i need to go back to see if any of my monkeys fell outside near or in the mud.  
-
-Now that i have all my monkeys safe in their barrel,...I have learned my lesson,... ill keep all my monkeys in the barrel from now on.
