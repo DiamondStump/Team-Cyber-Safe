@@ -32,10 +32,9 @@ still read the newspaper,... maybe i left one of my monkeys somewhere in that st
 
 Hint 3:  
 We have this little slot in our door for mail to slip in,... but my mom tries to take them and put them on a high shelf next to the door so that i cant 
-reach them,... but im very determined so i got a chair to stand on, and i jump to swipe the letters down and i fell on the floor,... it hurt but not too 
-bad. i looked at the mail and saw one intresting letter from a bank and i opened it and found a "DEB-it" card. I didnt have much time,... my mom was coming 
-and i had to get out of there fast so i dropped everything and ran. i still got in trouble for it later. however maybe throughout all that mess i might have 
-dropped my red plastic monkey.
+reach them,... but im very determined, so i  decided to get a chair to stand on, and as i jumped to swipe the letters down i fell on the floor,... it hurt but not too 
+bad. i eventually looked at the mail and saw one intresting letter from my parent's bank and i opened it and found a "DEB-it" card. I didnt have much time,... my mom was coming 
+and i had to get out of there fast so i dropped everything and ran. i still got in trouble for it later. __HOWEVER__ maybe throughout all that mess i might have dropped my red plastic monkey.
 
 Hint 4:  
 My parents dont like it when we play in the "MUD" in the front yard,... but when we do i like to pretend to be a big giant mud monster,... and my cousin
