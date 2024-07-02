@@ -1,5 +1,6 @@
 # Welcome to my CTF. 
-### Steganography.
+### Digital Forensics
+
 
 ## Let's Begin
 We Monkeys are the masters of peeling bannanas.  
