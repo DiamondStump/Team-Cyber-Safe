@@ -1,5 +1,5 @@
-Welcome to my CTF!
-Subject Category,... Machine Infiltration/RCE and Privilege escalation.
+# Welcome to my CTF!
+### Machine Infiltration/RCE and Privilege escalation.
 
 Nice! Before we begin lets cover some ground rules.
 The gist of this CTF is to download the [VictimCTF.ova](https://drive.google.com/file/d/18iAVf0B_164ajRm4T7VZj3XwJL74VSsd/view?usp=sharing) file and use "Virtualbox" to create a VM using that file.
