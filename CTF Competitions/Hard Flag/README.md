@@ -1,5 +1,15 @@
 # Welcome to my CTF!  
-Network Analysis.
+### Network Analysis.  
+
+## Let's begin!!!
+
+My name is Timmy and i love to play like with my red plastic monkeys,... I'm supposed to put my monkeys back in their barrel when im done playing with them.
+but i preffer to leave them in my pocket. 
+When i was counting my red plastic monkeys i noticed i was missing 4 of them.
+I suppose they might have fallen out of my pockets when i was playing around the house.
+Can you help me find them?
+
+## The Goal/Disclaimer
 
 Before we start this CTF there are a couple things that need to be explained.  
 The Flag that you need to find for this CTF is a makeup of words that have been seperated into 4 Pieces.  
@@ -8,16 +18,9 @@ And these 4 peices have been scattered throughout the .pcapng file.
 And the name of this .pcapng file is "Plastic_Monkeys.pcapng".  
 You must download this file,... and its up to you to find out how you will open the file and find the portions of the flag.  
 Rest assured there is no Malware in this pcapng file.  
-This is the end of the Disclaimer.  
 
+## Clues and Hints
 
-
-
-My name is Timmy and i love to play like with my red plastic monkeys,... I'm supposed to put my monkeys back in their barrel when im done playing with them.
-but i preffer to leave them in my pocket. 
-When i was counting my red plastic monkeys i noticed i was missing 4 of them.
-I suppose they might have fallen out of my pockets when i was playing around the house.
-Can you help me find them?
 
 Hint 1
 Me and my Brother love making cardboard box forts in the backyard, he calls the forts that he creates his "Domains",... he tells me not to play in them, but 
