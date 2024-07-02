@@ -2,7 +2,7 @@
 ### Machine Infiltration/RCE and Privilege escalation.
 
 ## Let's begin!!!
-Salutations everyone!  
+Salutations everyone.  
 We here at "Blackmarket United" we have recently discovered a new unique situation that has been blowing up recently and has been 
 getting a lot of attention in the scientific community.  
 Appearently an agricultural scientist with experience in avian biology seems to have aquired his hands on a new breed of goose.   
