@@ -15,7 +15,7 @@ Before we start this CTF there are a couple things that need to be explained.
 The Flag that you need to find for this CTF is a makeup of words that have been seperated into 4 Pieces.  
 These 4 words,... when put together in the correct order reveals the flag.  
 And these 4 peices have been scattered throughout the .pcapng file.  
-And the name of this .pcapng file that you ned to download is called is ["Plactic_Monkeys.pcapng"](https://github.com/Nicholas-Heitman/Portfolio/blob/main/CTF%20Competitions/Hard%20Flag/Plactic_Monkeys.pcapng).  
+And the name of this .pcapng file that you need to download is called is ["Plactic_Monkeys.pcapng"](https://github.com/Nicholas-Heitman/Portfolio/blob/main/CTF%20Competitions/Hard%20Flag/Plactic_Monkeys.pcapng).  
 It's up to you to find out how you will open the file and find the portions of the flag!  
 Rest assured there is no Malware in this pcapng file.  
 
