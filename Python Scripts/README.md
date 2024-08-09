@@ -1,7 +1,7 @@
 # Python Scripts Collection
 
 This Directory contains personal scripts that I have made and have used on a practival level.  
-Sometimes I will encounter a challenge and will have an idea to create a script to streamline the process.
+Sometimes I will encounter a challenge and will have an idea to create a script to streamline the process.  
 It's really a growing random list,... and i have tweeked them to make it available for use to the public.  
 So enjoy.  
   
