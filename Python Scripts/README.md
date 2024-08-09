@@ -1,13 +1,14 @@
 # Python Scripts Collection
 
 This Directory contains personal scipts that i have made and have used on a practival level.  
-There's no angle. it's a growing random list that i have tweeked to make it available for you to use.  
-So enjoy.
-
+There's no angle.  
+It's a growing random list that i have tweeked to make it available for use to the public.  
+So enjoy.  
+  
 For now I have two useful Python scripts:  
-One for managing email campaigns and another for generating secure random passwords. 
-These scripts are designed to be simple yet effective tools for common tasks.
-
+One for managing email campaigns and another for generating secure random passwords.  
+These scripts are designed to be simple yet effective tools for common tasks.  
+  
 ## Scripts Included
 
 ### 1. Email Campaign Script
