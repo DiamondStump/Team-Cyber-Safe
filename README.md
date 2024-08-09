@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! - If your a **technical recruiter** I suggest checking out my [CTF Compitionions](https://github.com/Nicholas-Heitman/Portfolio/tree/main/CTF%20Competitions)
 
-This repository serves as a collection of various projects I've created, ranging from small scripts and utilities to more complex applications.
+This repository serves as a collection of various projects I've created, ranging from small scripts and utilities to more complex applications.  
 This repository is a reflection of my journey in coding and infosec development. Each project you find here represents something I've explored, learned, or just had fun building. 
 There’s no specific theme or focus; it’s just a mix of whatever has sparked my interest at any given time.
 
