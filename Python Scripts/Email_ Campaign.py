@@ -3,6 +3,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import time
 
+# Helps you land a job! 
+# This script helps automate and manage private personal email campaigns specifically for emailing employees and recruiters in their respective organizations. 
+# It is a form of social networking, it gets you noticed and makes you stand out from the rest of the applicants.
+# Replies from employees can then be used to name drop them in a cover letter,... and sometimes an actual referral can come out of it! 
+# Overall: 
+# The script allows you to send bulk emails, customize content, and manage recipient lists.
+# Go to line "24" to learn more on what to expect and how to use.
+
 
 #_______________________________________________________________________________
 # makes a prehemptive disclaimer
@@ -14,8 +22,9 @@ if Disclaimer == "n":
 elif Disclaimer == "y":
 	print("""DICLAIMER!!!
 This script will only work if your using gmail,... (it depends,...read the 2nd paragraph for more clarification)
-You can always edit the script to add the email server and port number of your choice on line 179 and 262.
+You can always edit the script to add the email server and port number of your choice on line 187 and 270.
 You dont really need to change the PORT number unless you going to use a different protocol other thatn SMTP.
+(But doing so might require importing a different pyhton module.)
 You can always replace the "input variables" with "strings" to hardcode any information so that can decrease the 
 amount of promted questions. (should be super easy.)
 
@@ -37,10 +46,10 @@ You must understand what a "Company email naming convention" is.
 	   
 You will eventually be asked to privide a path to your .txt file. (The script will scan this .txt file)
 This .txt file is something that you'll create.
-This .txt file and will contain all the first and last names of staff members of the organization.
+This .txt file and will contain all the first and last names of staff members of the organization of your interest.
 It's imperitive that the file follows the correct format. 
 The format is as follows:
-	- First and last names in the file needs to be SEPERATED BY SPACES.
+	- First and last names in the file need to be SEPERATED BY SPACES.
 	- Each pair of first and last names in the file need to be ON THEIR OWN LINES,... starting from top to bottom.
 	- So each pair of names needs to be on a seperate line.
 	   Ex. Cory Lody
