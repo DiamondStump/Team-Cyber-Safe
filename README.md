@@ -25,4 +25,4 @@ Feel free to explore the projects and use them as you wish! Whether you're looki
 If you want to clone this repository to your local machine, you can use the following command:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Nicholas-Heitman/Portfolio
