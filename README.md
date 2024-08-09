@@ -7,7 +7,7 @@ This repository is a reflection of my journey in coding and infosec development.
 There’s no specific theme or focus; it’s just a mix of whatever has sparked my interest at any given time.
 
 ## Projects Included
-These projects are open to the public and cover a wide array of topics and technologies.
+These projects are open to the public and cover a wide array of topics and technologies.  
 You’ll find projects on:
 
 - **Pyhton scripts**: Small scripts to automate everyday tasks.
