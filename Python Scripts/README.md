@@ -1,6 +1,6 @@
 # Python Scripts Collection
 
-This Directory contains personal scipts that i have made and used on a practival level.  
+This Directory contains personal scipts that i have made and have used on a practival level.  
 There's no angle. it's a growing random list that i have tweeked to make it available for you to use.  
 So enjoy.
 
