@@ -22,6 +22,3 @@ __Multiple CTF Challenges__: Engage in a variety of CTF challenges spanning diff
 __Progressive Difficulty__: Challenges are organized from beginner to advanced levels to facilitate skill development and learning progression.
 
 __Skill Enhancement__: Participants will gain practical experience and proficiency in key cybersecurity techniques essential for threat detection and response.
-
-## Getting Started
-To get started simply click on the "[CTF Competitions](https://github.com/Nicholas-Heitman/Portfolio/tree/main/CTF%20Competitions)" directory to explore the varied challenges.
