@@ -10,7 +10,7 @@ There’s no specific theme or focus; it’s just a mix of whatever has sparked 
 These projects are open to the public and cover a wide array of topics and technologies.  
 You’ll find projects on:
 
-- **Pyhton scripts**: Small scripts to automate everyday tasks.
+- **[Pyhton scripts](https://github.com/Nicholas-Heitman/Portfolio/tree/main/Python%20Scripts)**: Small scripts to automate everyday tasks.
 - **[CTF Challenges](https://github.com/Nicholas-Heitman/Portfolio/tree/main/CTF%20Competitions)**: Hanfull of CTFs encompassing a wide varity of cybersecurity disciplines.
 - **Growing Repository**: Future content to be added.
 
