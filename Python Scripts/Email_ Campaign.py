@@ -23,7 +23,7 @@ elif Disclaimer == "y":
 	print("""DICLAIMER!!!
 This script will only work if your using gmail,... (it depends,...read the 2nd paragraph for more clarification)
 You can always edit the script to add the email server and port number of your choice on line 187 and 270.
-You dont really need to change the PORT number unless you going to use a different protocol other thatn SMTP.
+You dont really need to change the PORT number unless your going to use a different protocol other thatn SMTP.
 (But doing so might require importing a different pyhton module.)
 You can always replace the "input variables" with "strings" to hardcode any information so that can decrease the 
 amount of promted questions. (should be super easy.)
