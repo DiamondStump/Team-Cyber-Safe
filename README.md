@@ -1,4 +1,4 @@
-# My Portfolio of Random Projects
+# My Portfolio of InfoSec Projects
 
 Welcome to my portfolio! - If your a **technical recruiter** I suggest checking out my [CTF Compitionions](https://github.com/Nicholas-Heitman/Portfolio/tree/main/CTF%20Competitions)
 
