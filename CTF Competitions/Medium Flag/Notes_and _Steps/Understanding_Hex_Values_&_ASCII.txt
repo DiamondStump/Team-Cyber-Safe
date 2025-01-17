@@ -46,7 +46,7 @@ Explaning hexidecimal values in correlation to bits and bytes.
             Hex "F" corresponds to binary 1111 
 Converting Hex to ASCII
      - to makes things easy lets look at the number 125 in base-10,...which is what most people on earth are familiar with,... which is 0,1,2,3,4,5,6,7,8,9.
-          - if we were in kindergarden the teacher would say; 
+          - if we were in kindergarden the teacher would say regaurding 125; 
           - 5 is in the one's place. 
           - 2 is in the ten's place.
           - and 1 is in the hundred's place.
@@ -56,8 +56,7 @@ Converting Hex to ASCII
           - 6 is in the hundred's place.
           - and 1 is in the thousand's place.
           - Do you see the pattern?
-     - For base-16 the process is a little bit different. Lets look at 120. (This doesnt make sense for reasons that im not going to explain, but is only 
-                                                                                                                               for demonstration purposes)
+     - For base-16 the process is a little bit different. Lets look at 120. (This doesnt make sense for reasons that im not going to explain, but is only for demonstration purposes)
           - The 0 would be in the one's place.
           - however 2 would exist in the 16teen's place.
           - and 1 would exist in the 256's place.
@@ -75,7 +74,7 @@ Converting Hex to ASCII
                - 10^3 power = 1000
       - Going back to base-16,... lets look at 120. (This doesnt make sense for reasons im not going to explain, but is only for demonstration purposes)
            - why is 1 in the 256's place? it looks like it's in the hundred's place,... but its actually in the 256's place, but why?
-           - it's because 16 is being multplied by itself once.
+           - it's because 16 is being multplied by itself once. because we're working with a base-16 numbering system.
                 - 16 x 16 = 256
                     or
                 - 16^2 power = 256
@@ -91,7 +90,7 @@ Converting Hex to ASCII
      - In this case we are only working with pairs of Hexadecimal values. 
           - So we wont be seeing 3 or more digits in a row,... only 2. WHich means less math,... which makes things easier.
      - SO what does the Hexadecimal value of "6E" represent,... remember this is base-16?
-          - E is in the one's place,... and by itslef is equal to 14
+          - E is in the one's place,... and by itself is equal to 14
           - 6 is in the 16teen's place,... and by itself is equal to 6
           - so with this information we can use the formula below to find the answer.
                - Remember to use the order of operations.
